@@ -1,3 +1,8 @@
-// action types
+export const LOGIN = "LOGIN"
 
-// Action Creators
+export const Login = (data) => {
+    return {
+        type:LOGIN,
+        payload: data
+    }
+}
